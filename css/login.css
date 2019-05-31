@@ -2,19 +2,28 @@ body{
 	background-color: #dadada !important;
 }
 .row{
-	margin-top: 120px;
+	margin-top: 130px;
 }
 h1{
 	text-align: center;
 	color: #727370 !important;
+	font-family: initial;
 }
 p{
 	padding: 21px;
 	padding-left: 45px;
+	line-height: 20px;
+	font-family: initial;
+}
+.head_name{
+	margin-bottom: 20px;
+}
+.head_name b{
+	margin-left: 5px;
 }
 .head_name i{
 	font-size: 40px;
-	color: #e91e63;
+	color: #ff2f20;
 	margin-bottom: 20PX;
 }
 .bttn1{
@@ -27,6 +36,8 @@ p{
 	height: 40px;
 	cursor: pointer;
 	opacity: 0.8;
+	margin-left: 110px;
+
 }
 .bttn2{
 	font-size: 15px;
@@ -36,6 +47,8 @@ p{
 	width: 110px;
 	border-radius: 25px;
 	height: 40px;
+	margin: 15px;
+	margin-left: 110px;
 }
 /*  popup form - hidden */
 .form-popup {
@@ -46,28 +59,42 @@ p{
 }
 /*  styles to the form container */
 .form-container {
-	max-width: 300px;
+	max-width: 400px;
 	padding: 10px;
 	background-color: #dadada;
-	height: 300px;
+	height: 355px;
 }
 /* Full-width input fields */
 .form-container input[type=text], .form-container input[type=password] {
 	width: 100%;
 	padding: 10px;
-	margin: 5px 0 22px 0;
-	background: #f1f1f1;
+	margin: 0 0 15px 0;
+	background: white;
 }
 /*  style for email and password*/
 .f_name{
 	float: left;
-	color: grey;
+	color: black;
 	font-weight: 100;
 }
 /*  style for forgot*/
-.f_name1{
+.forgot_pss{
 	float: right;
 	color: #199dea;
+}
+/* style for don't have an account*/
+.dont_acc{
+	margin-left: 50px;
+	color: white;
+}
+.btn_sup{
+	border: none;
+	background-color: dimgrey;
+	color: cornflowerblue;
+	border-radius: 40px;
+	width: 60px;
+	height: 20px;
+	font-size: 12px;
 }
 /* When the inputs get focus, do something */
 .form-container input[type=text]:focus, .form-container input[type=password]:focus {
@@ -75,7 +102,7 @@ p{
 }
 /* style for the submit/login button */
 .form-container .btn {
-	background-color: #05a9f7;
+	background-color: #68a7d1;
 	color: white;
 	padding: 12px 12px;
 	border: none;
@@ -83,4 +110,6 @@ p{
 	width: 40%;
 	margin-bottom:10px;
 	border-radius: 35px;
+	margin: 20px;
+	margin-left: 75px;
 }
