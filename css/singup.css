@@ -4,6 +4,9 @@ body{
 .container{
 	margin-top: 20px;
 }
+.row{
+	margin-bottom: 20px;
+}
 .form1{
 	margin-top: 5%;
 	font-size: 13px;
@@ -11,7 +14,6 @@ body{
 .form-control{
 	border-top-style: inset;
 	width: 85%; 
-	margin-bottom: 15px;
 }
 .form-city{
 	width: 115%;
