@@ -19,7 +19,7 @@
             <button class="btn btn-primary dropdown-toggle dropdown" type="button" data-toggle="dropdown">resident</button>
           </div>
         </div>
-        <form class="form1">
+        <form class="form1" action="index.html" >
 
           <div class="row">
             <div class="col-lg-3 offset-lg-3">
@@ -42,7 +42,7 @@
             </div>
             <div class="col-lg-3">
               <label>phone number</label>
-              <input type="number" name="lastname" id="pnumber"  class="form-control">
+              <input type="txt" name="lastname" id="pnumber"  class="form-control">
               <span id="pnumerror" class="text-danger"></span>
             </div>
           </div>
@@ -63,17 +63,17 @@
           <div class="row">
             <div class="col-lg-2 offset-lg-3">
               <label>city</label>
-              <input type="city" class="form-control form-city" id="city"  placeholder=" city">
+              <input type="text" class="form-control form-city" id="city"  placeholder=" city">
               <span id="cityerror" class="text-danger"></span>
             </div>
             <div class="col-lg-1 offset-lg-1">
               <label>state</label>
-              <input type="state" class="form-control form-state" id="state"  placeholder=" state">
-              <span id="stateerror" class="text-danger"></span>
+              <input type="text" class="form-control form-state" id="state"  placeholder=" state">
+              <span id="stateerror" class="text-danger font"></span>
             </div>
             <div class="col-lg-1">
               <label>zipcode</label>
-              <input type="code" class="form-control form-zipcode" id="zipcode"  placeholder="zipcode">
+              <input type="text" class="form-control form-zipcode" id="zipcode"  placeholder="zipcode">
               <span id="ziperror" class="text-danger "></span>
             </div>
           </div>
@@ -82,23 +82,23 @@
             <div  class="col-lg-3 offset-lg-3">
               <label>create password</label>
               <input type="password" id="password"  class="form-control">
-              <span id="passerror" class="text-danger font-weight-bold"></span>
+              <span id="passerror" class="text-danger"></span>
             </div>
             <div class="col-lg-3">
               <label>verify password</label>
               <input type="password" id="vpassword"  class="form-control">
-              <span id="vpasserror" class="text-danger font-weight-bold"></span>
+              <span id="vpasserror" class="text-danger"></span>
             </div>
           </div>
-
-        </form>
-        <div class="row">
-          <div class="col-lg-6 offset-lg-3">
-            <button type="submit" class="btn btn-primary sbtn" onclick="return singValidation()">Submit</button><br>
-            <a href="login.html"><small class="account">Already have an account?</small></a>
-            <button class="btn-log">Login</button>
+          
+          <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+              <button type="submit" class="btn btn-primary sbtn"  onclick="return singValidation()">Submit</button><br>
+              <a href="login.html"><small class="account">Already have an account?</small></a>
+              <button class="btn-log"><a href="login.html">Login</a></button>
+            </div>
           </div>
-        </div>
+        </form>
       </div>
     </body>
   </html>

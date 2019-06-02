@@ -5,7 +5,7 @@ body{
 	margin-top: 20px;
 }
 .row{
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 .form1{
 	margin-top: 5%;
@@ -19,10 +19,10 @@ body{
 	width: 115%;
 }
 .form-zipcode{
-	width: 130%;
+	width: 140%;
 }
 .form-state{
-	width: 120%;
+	width: 130%;
 }
 .dropdown{
 	background: border-box;
@@ -54,4 +54,7 @@ body{
 	width: 10%;
 	color: #26a0f7;
 	background-color: rgb(105, 94, 94);
+}
+span{
+	font-size: 12px;
 }
