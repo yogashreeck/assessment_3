@@ -1,6 +1,55 @@
 body{
-	background-color: #dadada;
+	background-color: #c8cbd1;
 }
 .container{
 	margin-top: 20px;
+}
+.form1{
+	margin-top: 5%;
+	font-size: 13px;
+}
+.form-control{
+	border-top-style: inset;
+	width: 85%; 
+	margin-bottom: 15px;
+}
+.form-city{
+	width: 115%;
+}
+.form-zipcode{
+	width: 130%;
+}
+.form-state{
+	width: 120%;
+}
+.dropdown{
+	background: border-box;
+	border-radius: 50px;
+	color: #27aadc;
+	border-color:  #27aadc;
+	width: 70%;
+	position: absolute;
+	top: 3px;
+	left: 45%;
+}
+.sbtn{
+	background-color: #26a0f7;
+	margin-left: 34%;
+	margin-top: 5%;
+	width: 25%;
+	border-radius: 30px;
+	height: 35%;
+	margin-bottom: 2%;
+}
+.account{
+	color: white;
+	margin-left: 20%;
+}
+.btn-log{
+	border: none;
+	border-radius: 40px;
+	font-size: 12px;
+	width: 10%;
+	color: #26a0f7;
+	background-color: rgb(105, 94, 94);
 }
