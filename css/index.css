@@ -9,17 +9,18 @@ body{
 	color: #ff5722;
 }
 .log{
-  color: #03a9f4;
+	color: #03a9f4;
 }
 .timings{
 	background-color: #cdcdd2;
 	margin: 10px;
 	font-size: 12px;
 	padding: 10px;
+	margin: 20px;
 }
 .wifi{
-	font-size:30px;
-	color: #aeed61;
+	font-size: 25px;
+	color: #33c554;
 }
 .may4{
 	background-color: white;
@@ -28,14 +29,15 @@ body{
 	border-radius: 5px;
 }
 .event{
-	margin-top: 50px;
+	margin-top: 20px;
 	margin-left: 40px;
 	position: relative;
 }
 #calendar{
 	position: absolute;
-	top: 200px;
-	left: 900px;
+	top: 40%;
+	left: 70%;
+	background-color: white;
 }
 img{
 	margin: 10px;
@@ -47,29 +49,31 @@ img{
 /*to calender*/
 
 .monthPre{
- color: gray;
- text-align: center;
+	color: gray;
+	text-align: center;
+	background-color: white;
 }
 .monthNow{
- color: blue;
- text-align: center;
+	color: blue;
+	text-align: center;
 }
 .dayNow{
- border: 2px solid black;
- color: #FF0000;
- text-align: center;
+	border: 2px;
+	color: white;
+	background-color: #377b6c;
+	text-align: center;
 }
 .calendar td{
- htmlContent: 2px;
- width: 40px;
+	htmlContent: 2px;
+	width: 40px;
 }
 .monthNow th{
- background-color: #000000;
- color: #FFFFFF;
- text-align: center;
+	background-color: #efeaea;
+	color: black;
+	text-align: center;
 }
 .dayNames{
- background: #0FF000;
- color: #FFFFFF;
- text-align: center;
+	background: #bdb7b7;
+	color: black;
+	text-align: center;
 }
