@@ -77,3 +77,24 @@ img{
 	color: black;
 	text-align: center;
 }
+.edit{
+	border: none;
+	color: black;
+	background-color: #67d1e8;
+	border-radius: 20px;
+	margin: 5px;
+	display: none;
+}
+.delete{
+	border: none;
+	color: black;
+	background-color: #67d1e8;
+	border-radius: 20px;
+	display: none;
+}
+.row:hover .edit {
+  display: block;
+}
+.row:hover .delete {
+  display: block;
+}

@@ -10,8 +10,8 @@ h1{
 	font-family: initial;
 }
 p{
-	padding: 21px;
-	padding-left: 45px;
+	padding: 3%;
+	padding-left: 15%;
 	line-height: 20px;
 	font-family: initial;
 }
@@ -23,7 +23,7 @@ p{
 }
 .head_name i{
 	font-size: 40px;
-	color: #ff2f20;
+	color: #e91e63;
 	margin-bottom: 20PX;
 }
 .bttn1{
@@ -62,7 +62,7 @@ p{
 	max-width: 400px;
 	padding: 10px;
 	background-color: #dadada;
-	height: 355px;
+	height: 100%;
 }
 /* Full-width input fields */
 .form-container input[type=text], .form-container input[type=password] {

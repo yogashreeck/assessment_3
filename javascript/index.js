@@ -131,3 +131,4 @@ while (weekdays>0)
       calendarBody += "</tr></table>";
   document.getElementById("calendar").innerHTML=calendarBody;
 }
+

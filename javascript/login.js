@@ -22,8 +22,8 @@ function singValidation() {
 
 	var fnamecheck = /^[A-Za-z. ]{1,15}$/ ;
 	var lnamecheck = /^[A-Za-z. ]{1,15}$/ ;
-	var emailcheck = /^[A-Za-z. ]{1,15}$/ ;
-	var pnumbercheck = /^[]{10}$/ ;
+	var emailcheck = /^[A-Za-z. ]{3,}@[A-Za-z]{3,}[.]{1}[A-Za-z.]{2,6}$/ ;
+	var pnumbercheck = /^[0-9]{10}$/ ;
 	var street1check = /^[A-Za-z. ]{1,15}$/ ;
 	var street2check = /^[A-Za-z. ]{1,15}$/ ;
 	var citycheck = /^[A-Za-z. ]{1,15}$/ ;
