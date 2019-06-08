@@ -15,6 +15,19 @@ body{
 	border-top-style: inset;
 	width: 85%; 
 }
+.wrong-error{
+  border: 1px solid #da6868;
+  width: 80%;
+  height: 45%;
+}
+.wname{
+	color: #da6868;
+}
+.wcity{
+	width: 80%;
+	height: 25%;
+	border: 1px solid #da6868;
+}
 .form-city{
 	width: 115%;
 }

@@ -10,23 +10,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body onload="displayCalendar()">
-    <div class="navbar-nav row">
-      <nav class="navbar navbar-expand-sm navbar-dark col-lg-12">
+    <div class="navbar-nav">
+      <nav class="navbar navbar-expand-sm navbar-dark col-lg-12 col-md-12 col-sm-12">
         <div class=" dark-blue-text bars"><i class="fas fa-bars fa-1x"></i></div>
         <div class=" col-lg-1 home">Home</div>
         <div class="col -lg-1 offset-lg-1 text-center dove"><i class='fas fa-dove'></i><b>yhub</b></div>
         <div class=" col-lg-1 bell"><i class="fa fa-bell"></i></div>
-        <div class="col-lg-1 log">Logout</div>
+        <div class="col-lg-1 log"><a href="login.html">Logout</a></div>
       </nav>
     </div>
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-sm-2 col-md-2">
           <label id="Greetings"></label>
         </div>
        
-        <div class="col-lg-1 timings">
+        <div class="col-lg-1 col-md-1 col-sm-1 timings">
           <span id="week"></span>
           <span id="month"></span>
           <span id="date"></span><br>
@@ -35,24 +35,28 @@
           <span id="daycheck"></span>
         </div>
         
-        <div class="col-lg-1 timings text-center">
+        <div class="col-lg-1 col-md-1 col-sm-1 timings text-center">
           <span >Temp</span><br>
           <span><img src="./images/wwsunny.png" width="20" height="20"></span><br>
           <span>85 F</span>
         </div>
       
-        <div class="col-lg-1 timings text-center">
+        <div class="col-lg-1 col-md-1 col-sm-1 timings text-center">
           <span >SIGNAL</span><br>
           <span class="wifi"><i class="fa fa-wifi"></i></span>
         </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 offset-lg-2 offset-sm-2 offset-md-2">
+            <div id="calendar"></div> 
+        </div>
       </div>
+    
 
       <div class="event">
         <h4>Events</h4>
       </div>
-      <div id="calendar"></div> 
         
-      <div class="row may4 col-lg-7">
+      <div class="row may4 col-lg-7 col-md-7 col-sm-7">
         <div class="col-lg-1">
           <span>Fri 4 <b> may</b></span>
         </div>
@@ -72,7 +76,7 @@
         </div>
       </div>
 
-      <div class="row may4  col-lg-7">
+      <div class="row may4  col-lg-7  col-lg-7 col-md-7 col-sm-7">
         <div class="col-lg-1">
          <span>Wed 14 <b>mar</b></span>
         </div>
@@ -92,7 +96,47 @@
         </div>
       </div>
 
-      <div class="row may4  col-lg-7">
+      <div class="row may4  col-lg-7  col-lg-7 col-md-7 col-sm-7">
+        <div class="col-lg-1">
+          <span>Sat 25 <b>aug</b></span>
+        </div>
+        <div>
+          <img src="./images/burning.jpg" alt="party error" width="100" height="100">
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6 content">
+          <h6> Chocella valley music and Arts festival, califorina </h6>
+          <small>"Accept this invitation to browse our event company names collection! Find event management names with the perfect .com domain, and a choice of brand logos".</small>
+        </div>
+        <div>
+          <small>10.30-7.30 p.m</small><br>
+           <div >
+            <button class="edit"><i class="fa fa-edit"></i>Edit</button><br>
+            <button class="delete"><i class="fa fa-remove"></i>Delete</button>
+          </div>
+        </div>
+      </div>
+
+       <div class="row may4 col-lg-7 col-md-7 col-sm-7">
+        <div class="col-lg-1">
+          <span>Fri 4 <b> may</b></span>
+        </div>
+        <div>
+          <img src="./images/party.jpg" alt="party error" width="100" height="100">
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6 content">
+          <h6> Chocella valley music and Arts festival, califorina </h6>
+          <small>"Accept this invitation to browse our event company names collection! Find event management names with the perfect .com domain, and a choice of brand logos".</small>
+        </div>
+        <div>
+          <small>10.30-7.30 p.m</small><br>
+          <div>
+            <button class="edit"><i class="fa fa-edit"></i>Edit</button><br>
+            <button class="delete"><i class="fa fa-remove"></i>Delete</button>
+          </div>
+        </div>
+      </div>
+
+       <div class="row may4  col-lg-7  col-lg-7 col-md-7 col-sm-7">
         <div class="col-lg-1">
           <span>Sat 25 <b>aug</b></span>
         </div>
