@@ -19,32 +19,38 @@
         <div class="col-sm-6 col-md-4 col-lg-4">
           <h2 class="head_name text-center"><i class='fas fa-dove'></i><b>yhub</b></h2> 
           <h1 class="text-center">Welcome</h1>
-          <p> Today,&ensp;many&ensp;people&ensp;rely&ensp;on&ensp;computer&ensp;to do&ensp;homework, &ensp;work &ensp;and&ensp;create&ensp;or&ensp;store useful &emsp;information. &emsp;Therefore,&emsp;it &emsp;is important&emsp;for&emsp;the&emsp;information&emsp;on&ensp;the computer to be stored.</p>
+          <p>Today,&ensp;many&ensp;people&ensp;rely&ensp;on&ensp;computer&ensp;to do&ensp;homework, &ensp;work &ensp;and&ensp;create&ensp;or&ensp;store useful &emsp;information. &emsp;Therefore,&emsp;it &emsp;is important&emsp;for&emsp;the&emsp;information&emsp;on&ensp;the computer to be stored.</p>
         </div>
         <div class="col-sm-3 col-md-4 col-lg-4"></div>
         <div class="col-sm-4 col-md-4 col-lg-4"></div>
         <div class="col-sm-4 col-md-4 col-lg-4">
-          <button class="bttn1" onclick="openForm()">Login</button>
-            <div class="form-popup" id="myForm">
+          <div class="container">
+              <button type="button" class="bttn1" data-toggle="modal" data-target="#myModal">Login</button><br>
+            <div class="modal fade" id="myModal" role="dialog">
+              <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                  <h5 class="head-name text-center"><i class='fas fa-dove'></i><b>yhub</b> </h5>
+     
+                  <form class="form-container" action="index.html">
 
-              <form class="form-container" action="index.html">
+                    <label class="f_name">Email</label>
+                    <input type="text" name="email" required>
 
-                <label class="f_name">Email</label>
-                <input type="text" name="email" required>
+                    <label class="f_name">Password</label>
+                    <input type="password" name="psw" required>
+                    <small class="forgot_pss">Forgot Password?</small>
 
-                <label class="f_name">Password</label>
-                <input type="password" name="psw" required>
-                <small class="forgot_pss">Forgot Password?</small>
+                    <button type="submit" class="btn">submit</button><br>
+                    <a href="login.html"><small class="dont_acc"><b>Don't have an account?</b></small></a>
+                    <a href="singup.html"><button class="btn_sup">singup</button></a>
 
-                <button type="submit" class="btn">submit</button><br>
-                <a href="login.html"><small class="dont_acc"><b>Don't have an account?</b></small></a>
-                <a href="singup.html"><button class="btn_sup">singup</button></a>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
 
-              </form>
-
-            </div><br>
-
-           <a href="singup.html"><button class="bttn2">Singup</button></a>
+            <a href="singup.html"><button class="bttn2">Singup</button></a>
         </div>
         <div class="col-sm-4 col-md-4 col-lg-4"></div>
       </div>

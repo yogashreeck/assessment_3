@@ -11,7 +11,7 @@ h1{
 }
 p{
 	padding: 3%;
-	padding-left: 15%;
+	padding-left: 10%;
 	line-height: 20px;
 	font-family: initial;
 }
@@ -20,6 +20,19 @@ p{
 }
 .head_name b{
 	margin-left: 5px;
+}
+.head-name{
+	background-color: #dadada;
+	margin: 0px;
+	padding: 10px;
+	color: #e91e63;
+}
+.modal-content{
+    width: 110%;
+    height: 100%;
+}
+.modal{
+	top: 15%;
 }
 .head_name i{
 	font-size: 40px;
@@ -35,8 +48,7 @@ p{
 	border-radius: 25px;
 	height: 40px;
 	cursor: pointer;
-	opacity: 0.8;
-	margin-left: 110px;
+	margin-left: 30%;
 
 }
 .bttn2{
@@ -47,8 +59,8 @@ p{
 	width: 110px;
 	border-radius: 25px;
 	height: 40px;
-	margin: 15px;
-	margin-left: 110px;
+	margin-top: 15px;
+	margin-left: 32%;
 }
 /*  popup form - hidden */
 .form-popup {
