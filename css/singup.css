@@ -16,9 +16,9 @@ body{
 	width: 85%; 
 }
 .wrong-error{
-  border: 1px solid #da6868;
-  width: 80%;
-  height: 45%;
+	border: 1px solid #da6868;
+	width: 80%;
+	height: 45%;
 }
 .wname{
 	color: #da6868;

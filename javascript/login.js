@@ -19,8 +19,8 @@ function singValidation() {
 	var password = document.getElementById('password').value;
 	var vpassword = document.getElementById('vpassword').value;
 
-  	var  fname1 = document.getElementById('fname1');
-  	var lname1 = document.getElementById('lname1');
+	var  fname1 = document.getElementById('fname1');
+	var lname1 = document.getElementById('lname1');
 	var email1 = document.getElementById('email1');
 	var pnumber1 = document.getElementById('pnumber1');
 	var Street11 = document.getElementById('Street11');
@@ -47,7 +47,7 @@ function singValidation() {
 	if (fnamecheck.test(fname)) {
 		document.getElementById('fnamerror').innerHTML = " ";
 	}
-    if (lnamecheck.test(lname)) {
+	if (lnamecheck.test(lname)) {
 		document.getElementById('lnamerror').innerHTML = " ";
 	}
 	if (emailcheck.test(email)) {

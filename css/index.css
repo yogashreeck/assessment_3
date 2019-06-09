@@ -25,7 +25,7 @@ body{
 }
 .may4{
 	background-color: white;
-    box-shadow: 5px 5px 5px grey;
+	box-shadow: 5px 5px 5px grey;
 	margin: 20px;
 	border-radius: 5px;
 }
@@ -103,8 +103,8 @@ img{
 	display: none;
 }
 .row:hover .edit {
-  display: block;
+	display: block;
 }
 .row:hover .delete {
-  display: block;
+	display: block;
 }
